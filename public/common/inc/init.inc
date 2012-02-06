@@ -1,6 +1,6 @@
 <?php
 // <editor-fold defaultstate="collapsed" desc="set global variable">
-define("SITE_PATH", '/Intranet/');
+define("SITE_PATH", '/');
 define("INC_PATH", '../common/inc');
 define("CTRL_PATH", '../controllers');
 define("WP_INC_PATH", '../blog/wp_includes/');
