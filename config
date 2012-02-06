@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "intranet"]
+	url = git@essozi.unfuddle.com:essozi/lrlw.git
+	fetch = +refs/heads/*:refs/remotes/intranet/*
+	push = refs/heads/master:refs/heads/master
+[branch "master"]
+	remote = intranet
+	merge = refs/heads/master
