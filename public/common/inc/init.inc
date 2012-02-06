@@ -16,7 +16,7 @@ if (strtolower($_SERVER['REQUEST_URI']) == strtolower(SITE_PATH))
 // <editor-fold defaultstate="collapsed" desc="inclusion des classes de models">
 require_once '../common/inc/ActiveRecord.inc';
 $connections = array(
-    'development' => 'mysql://root:test@localhost/dev_intranet?charset="utf8',
+    'development' => 'mysql://user_f657b901:IdZ&)t%az^mqEF@a.db.shared.orchestra.io/db_f657b901?charset="utf8',
 );
 
 # must issue a "use" statement in your closure if passing variables
