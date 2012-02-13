@@ -13,7 +13,7 @@ Begin('Mon espace', true); ?>
               <h6><span style="color: #777">3</span> badges</h6>
             </div>
             <div style="border-bottom: 1px solid #DDD; padding: 5px;">
-              <h6><span style="color: #777">2</span> activités réalisées</h6>
+              <h6><span style="color: #777">2</span> activites realisees</h6>
             </div>  
             <div style="border-bottom: 1px solid #DDD; padding: 5px;">
               <h6><span style="color: #777">4</span> groupes</h6>
@@ -28,21 +28,21 @@ Begin('Mon espace', true); ?>
           <div style="padding: 10px;background: #F4F4F4;padding-top: 2px; margin-bottom: 10px;">
               <h5 style="border-bottom: 1px solid #E1E1E1; margin-bottom: 10px;">
                 <a href="" style="color: #444;">John</a>, 
-                <span style="font-weight: normal; color: #AAA; font-size: 11px;">26 décembre 2010</span>
+                <span style="font-weight: normal; color: #AAA; font-size: 11px;">26 dï¿½cembre 2010</span>
               </h5>
               <span>Quoi de neuf ?</span>
           </div>
           <div style="padding: 10px;background: #F4F4F4;padding-top: 2px; margin-bottom: 10px;">
               <h5 style="border-bottom: 1px solid #E1E1E1; margin-bottom: 10px;">
                 <a href="" style="color: #444;">John</a>, 
-                <span style="font-weight: normal; color: #AAA; font-size: 11px;">26 décembre 2010</span>
+                <span style="font-weight: normal; color: #AAA; font-size: 11px;">26 decembre 2010</span>
               </h5>
               <span>Il fait beau</span>
           </div>
           <div style="padding: 10px;background: #F4F4F4;padding-top: 2px; margin-bottom: 10px;">
               <h5 style="border-bottom: 1px solid #E1E1E1; margin-bottom: 10px;">
                 <a href="" style="color: #444;">John</a>, 
-                <span style="font-weight: normal; color: #AAA; font-size: 11px;">26 décembre 2010</span>
+                <span style="font-weight: normal; color: #AAA; font-size: 11px;">26 decembre 2010</span>
               </h5>
               <span>Je suis malade</span>
           </div>
