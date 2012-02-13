@@ -1,6 +1,6 @@
 <?php
 include '../common/inc/init.inc';
-Begin('Connexion', true, true);
+$res->begin('Connexion', true, true);
 ?>
 <div class="container">
     <div class="hero-unit">
@@ -28,3 +28,5 @@ Begin('Connexion', true, true);
         </div>
     </div>
 </div>
+
+<?php $res->Close();?>

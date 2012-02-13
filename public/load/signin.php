@@ -7,27 +7,27 @@ Begin("Connexion", true);
 </style>
 
 <?php if (isset($_GET['failed'])) : ?>
-  <div class="error-div">Vérifier les informations que vous avez entrés</div>
+  <div class="error-div">Verifier les informations que vous avez entrï¿½s</div>
 <?php endif; ?>
 
 
-<form action="../controllers/authenticate.php" id="auth_form" method="post" autocomplete="off">
+<form action="../controllers/signin.php" id="auth_form" method="post">
     <div class="row">
         <div class="span4">&nbsp;</div>
         <div class="span8">
             <fieldset>
               <div class="clearfix">
                 <label>ID Booster</label>
-                <div class="input"><input type="text" name="login" id="login" class="text" value="" autocomplete="on" /></div>
+                <div class="input"><input type="text" name="login" id="login" class="text" value=""/></div>
               </div>
               <div class="clearfix">
                 <label>Mot de passe</label>
-                <div class="input"><input type="password" name="password" id="password" class="text" autocomplete="off" value=""/></div>
+                <div class="input"><input type="password" name="password" id="password" class="text" value=""/></div>
               </div>
               <div class="actions">
                 <input type="submit" class="btn btn-primary" value="Connexion" />
               </div>
-                <p class="help-block"> J'ai <code>oublié</code> mon mot de passe.</p>
+                <p class="help-block"> J'ai <code>oubliÃ©</code> mon mot de passe.</p>
             </fieldset>
                             
 
