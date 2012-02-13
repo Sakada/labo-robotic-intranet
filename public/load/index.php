@@ -9,7 +9,7 @@
       <div class="row">
         <div class="span4">
           <h2>Talk</h2>
-            <iframe src="../common/inc/snippets/chat" width="280px" height="440px"></iframe>
+            Tesxt à grjeglkjrlgjjergervg
         </div>
         <div class="span4">
           <h2>Les membres</h2>
