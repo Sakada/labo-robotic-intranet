@@ -24,7 +24,6 @@ $connections = array(
     'production' => 'mysql://user_f657b901:IdZ&)t%az^mqEF@a.db.shared.orchestra.io/db_f657b901?charset="utf8'
 );
 
-# must issue a "use" statement in your closure if passing variables
 ActiveRecord\Config::initialize(function($cfg) use ($connections) {
             $cfg->set_model_directory('../common/inc/models');
             $cfg->set_connections($connections);
