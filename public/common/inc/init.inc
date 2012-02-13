@@ -41,12 +41,12 @@ if (isset($_SESSION['user']))
     $user = $_SESSION['user'];
 // </editor-fold>
 // <editor-fold defaultstate="collapsed" desc="inclusion du controlleur">
-
 $paths = explode('/', $_SERVER['SCRIPT_NAME']);
 $script = $paths[count($paths) - 1];
 if (is_file(CTRL_PATH . '/' . $script)) {
     include CTRL_PATH . '/' . $script;
 }
+//definition de singleton de template
 $res = Template::instance('template');
 // </editor-fold>
 ?>
