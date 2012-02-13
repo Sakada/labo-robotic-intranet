@@ -13,7 +13,7 @@ $res->begin('Connexion', true, true);
             Essaies en cours....
             <div class="span4">
                 <h2>Talk</h2>
-                <iframe src="../common/inc/snippets/chat" width="280px" height="440px"></iframe>
+                <!--<iframe src="../common/inc/snippets/chat" width="280px" height="440px"></iframe>-->
             </div>
         </div>
         <div class="span4">
