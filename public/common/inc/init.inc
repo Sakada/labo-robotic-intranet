@@ -1,9 +1,8 @@
 <?php
 // <editor-fold defaultstate="collapsed" desc="set global variable">
-$environment = 'production'; 
-//$environment = 'development';
-
-$environment == 'production' ? define("SITE_PATH", '/public/') : define("SITE_PATH", '/');
+define('Environment', 'production');
+//define('Environment', 'development');
+Environment == 'production' ? define("SITE_PATH", '/public/') : define("SITE_PATH", '/');
 define("SYS_PATH", '../common/inc/');
 define("CTRL_PATH", '../controllers');
 define("WP_INC_PATH", '../blog/wp_includes/');
@@ -32,7 +31,7 @@ ActiveRecord\Config::initialize(function($cfg) use ($connections) {
             $cfg->set_date_format("Y-m-d H:i:s");
 
 # A fixer sur production lorsque le projet sera termine
-            $cfg->set_default_connection($environment);
+            $cfg->set_default_connection(Environment);
         });
 // </editor-fold>
 // <editor-fold defaultstate="collapsed" desc="creation de la session">
