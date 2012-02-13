@@ -31,7 +31,7 @@ Begin('Inscrire un client', true, 'Inscription');
                         <select name="campus" id="Select">
                             <option value="">--------</option>
                             <?php foreach ($campuses as $campus):?>
-                            <option value="<?php print $campus->id?>"><?php print $campus->campus?></option>
+                            <option value="<?php print $campus->id?>"><?php print $campus->name?></option>
                             <?php endforeach;?>
                         </select>
                     </div>
