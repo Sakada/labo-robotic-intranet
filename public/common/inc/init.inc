@@ -2,7 +2,7 @@
 // <editor-fold defaultstate="collapsed" desc="set global variable">
 define('Environment', 'production');
 //define('Environment', 'development');
-Environment == 'production' ? define("SITE_PATH", '/public/') : define("SITE_PATH", '/');
+Environment == 'development' ? define("SITE_PATH", '/public/') : define("SITE_PATH", '/');
 define("SYS_PATH", '../common/inc/');
 define("CTRL_PATH", '../controllers');
 define("WP_INC_PATH", '../blog/wp_includes/');
